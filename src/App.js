@@ -1,10 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Quote from "./Quote";
+import QuoteButton from "./QuoteButton";
+import Search from "./Search";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello!</h1>
+      <Search />
+      <QuoteButton />
+      <Quote />
     </div>
   );
 }
