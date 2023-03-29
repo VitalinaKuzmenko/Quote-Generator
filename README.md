@@ -17,7 +17,7 @@ https://quote-generator-vitalina.netlify.app/
 
 ## 🚀 Glitch API
 
-https://glitch.com/edit/#!/vitalina-kuzmenko-quote-server?path=server.js%3A38%3A5
+https://glitch.com/edit/#!/vitalina-kuzmenko-quote-server
 
 ## 💻 Screenshots
 
