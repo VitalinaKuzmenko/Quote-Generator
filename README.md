@@ -15,6 +15,10 @@ This page was created for educational purposes. The user can generate random quo
 
 https://quote-generator-vitalina.netlify.app/
 
+## 🚀 Glitch API
+
+https://glitch.com/edit/#!/vitalina-kuzmenko-quote-server?path=server.js%3A38%3A5
+
 ## 💻 Screenshots
 
 ![App Screenshot](https://www.dropbox.com/s/crptekiri2fjxqh/quote-generator-screenshot.png?raw=1)
