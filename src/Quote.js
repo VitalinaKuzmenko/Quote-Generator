@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 export default function Quote({ quote }) {
-  console.log(quote);
   return (
     <div className="p-12">
       <p className="text-4xl">{quote.quote}</p>

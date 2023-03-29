@@ -1,15 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function QuoteButton({ setQuote }) {
-  // const [fake, setFake] = useState("");
-
   const getAnotherQuote = () => {
-    fetch("http://localhost:3030/quotes/random")
+    fetch("https://vitalina-kuzmenko-quote-server.glitch.me/quotes/random")
       .then((response) => response.json())
       .then((data) => setQuote(data))
       .catch((error) => console.log(error));
-
-    // console.log(fake);
   };
 
   return (
