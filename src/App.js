@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="p-10 flex flex-col text-3xl">
+      <div className="bg-white/10 rounded-xl p-10 flex flex-col text-3xl mobile-window">
         <Search setQuote={setQuote} />
         <QuoteButton
           setQuote={setQuote}

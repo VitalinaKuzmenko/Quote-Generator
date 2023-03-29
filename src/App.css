@@ -6,4 +6,16 @@
   background-size: cover;
   height: 100vh;
   color: white;
+  padding: 120px 120px;
+}
+
+@media only screen and (max-width: 700px) {
+  .App {
+    padding: 120px 20px;
+  }
+
+  .mobile-window {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

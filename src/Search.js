@@ -32,7 +32,7 @@ export default function Search({ setQuote }) {
   return (
     <div>
       <label className="pr-3 text-2xl" htmlFor="search">
-        Search:
+        Search quote:
       </label>
       <input
         onChange={changeQuote}

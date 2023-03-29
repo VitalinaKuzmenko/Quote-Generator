@@ -21,7 +21,7 @@ export default function QuoteButton({
   return (
     <button
       onClick={getAnotherQuote}
-      className="place-self-center w-2/5 mt-10 border-2 text-2xl border-white rounded hover:bg-white hover:text-violet-950"
+      className="place-self-center w-60 mt-10 border-2 text-2xl border-white rounded hover:bg-white hover:text-violet-950 ease-in duration-300"
     >
       Get Another Quote
     </button>
