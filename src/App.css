@@ -4,9 +4,22 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   color: white;
   padding: 120px 120px;
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer .link:hover {
+  color: #7e38ad !important;
+  text-decoration: underline !important;
 }
 
 @media only screen and (max-width: 700px) {

@@ -38,6 +38,19 @@ function App() {
           typeOfApiError={typeOfApiError}
         />
       </div>
+      <footer>
+        <p>
+          <a
+            className="font-bold link"
+            rel="norefferer"
+            target="_blank"
+            href="https://github.com/VitalinaKuzmenko/Quote-Generator"
+          >
+            Open-source code
+          </a>
+          , by Vitalina Kuzmenko
+        </p>
+      </footer>
     </div>
   );
 }
