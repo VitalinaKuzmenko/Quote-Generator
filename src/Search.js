@@ -7,7 +7,7 @@ export default function Search({ setQuote }) {
 
   //getting all the quotes that are in API
   useEffect(() => {
-    fetch("https://vitalina-kuzmenko-quote-server.glitch.me/quotes")
+    fetch("https://vitalina-kuzmenko-quoteserver.glitch.me/quotes")
       .then((response) => response.json())
       .then((data) => setQuotes(data))
       .catch((error) => console.log(error));

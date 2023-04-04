@@ -6,7 +6,7 @@ export default function QuoteButton({
   setTypeOfApiError,
 }) {
   const getAnotherQuote = () => {
-    fetch("https://vitalina-kuzmenko-quote-server.glitch.me/quotes/random")
+    fetch("https://vitalina-kuzmenko-quoteserver.glitch.me/quotes/random")
       .then((response) => response.json())
       .then((data) => setQuote(data))
       .catch(
